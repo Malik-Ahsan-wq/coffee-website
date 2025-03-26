@@ -191,7 +191,11 @@ font-family: "Miniver",sans-serif;
         text-align: center;
     margin: 25px;
 }
-
+p.text{
+        text-align: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
 
 .section-title::after{
     content: "";
