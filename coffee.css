@@ -48,6 +48,7 @@ button{
 }
 img{
     width: 100%;
+    margin-top: 70px;
 }
 .section-content{
     margin: 0 auto;
@@ -186,12 +187,7 @@ font-family: "Miniver",sans-serif;
     object-fit: cover;
     border-radius: var(--border-radius-circle);
 }
-.section-title{
-    text-align: center;
-    padding: 30px 0 100px;
-    text-transform: uppercase;
-    font-size: var(--font-size-xl);
-}
+
 .section-title::after{
     content: "";
     width: 80px;
@@ -468,6 +464,11 @@ body.show-mobile-menu header::before{
     background: rgba(0, 0, 0, 0.2);
     
 }
+
+.about-section .social-link-list{
+    margin-top: 30px;
+}
+
 .navbar :where(#menu-close-button, #menu-open-button){
     display: block;
     font-size: var(--font-size-l);
@@ -497,9 +498,14 @@ color: white;
 .hero-section .hero-image-wrapper{
     max-width: 270px;
     margin-right: 0;
+    margin-top: 70px;
+ 
 }
 .hero-section .hero-details :is(.subtitle, .description), .about-section .about-details,.contact-section .contact-form{
     max-width: 100%;
+}
+img{
+    margin-top: 70px;
 }
 .hero-section .hero-details .buttons{
     justify-content: center;
