@@ -196,6 +196,10 @@ p.text{
     align-items: center;
     margin-bottom: 12px;
 }
+p.text{
+        margin-bottom: 18px;
+    text-align: center;
+}
 
 .section-title::after{
     content: "";
